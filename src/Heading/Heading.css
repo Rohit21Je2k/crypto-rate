@@ -1,0 +1,15 @@
+.main-heading {
+  width: 80%;
+  text-align: center;
+  margin: 5vh auto 8vh;
+  color: #14bed4;
+  text-shadow: 0 0 10px #f48476;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+@media only screen and (min-height: 600px) {
+  .main-heading {
+    margin: 10vh auto 10vh;
+  }
+}
