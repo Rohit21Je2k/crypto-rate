@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Rohit21Je2k/crypto-rate",
   "name": "crypto-rate",
   "version": "1.0.0",
   "description": "",
@@ -8,6 +9,7 @@
     "@material-ui/core": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.57",
     "axios": "0.21.0",
+    "gh-pages": "^3.1.0",
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-scripts": "3.4.3",
@@ -17,6 +19,8 @@
     "typescript": "3.8.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
